@@ -10,7 +10,7 @@ let database;
 
 let world, engine;
 let body, heart, lung, vein, brain;
-let bodyImg, lungImg, heartAnimation, arteryImg, brainImg, bgImg;
+let bodyImg, lungImg, heartAnimation, arteryImg, brainImg;
 
 function preload() {
   bodyImg = loadImage('images/body.png');
@@ -44,7 +44,6 @@ function preload() {
   lungImg = loadImage('images/lung2.png');
   //   arteryImg = loadImage('images/vein.png');
   brainImg = loadImage('images/brain2.png');
-  bgImg = loadImage('images/bg.png');
 }
 
 function startDrawing() {
